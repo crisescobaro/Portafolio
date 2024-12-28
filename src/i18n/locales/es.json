@@ -1,0 +1,60 @@
+{
+  "HEADER": {
+    "HEADER_TITLE": "Hola soy",
+    "HEADER_NAME": "Cristian Escobar",
+    "HEADER_ABOUT": "Experiencia en el diseño y desarrollo de aplicaciones web, abarcando tanto el frontend como el backend, además de un sólido manejo de análisis de datos y bases de datos.",
+    "HEADER_BUTTON": "Acerca de mí"
+  },
+  "ABOUTME": {
+    "ABOUT_TITLE": "Acerca de mí",
+    "ABOUT_ABOUT_DESCRIPTION": "Soy un desarrollador web especializado en la creación de aplicaciones completas desde el diseño de interfaces hasta la implementación de lógica en el servidor. Tengo experiencia en bases de datos y en el despliegue de aplicaciones, asegurando un rendimiento óptimo y una experiencia de usuario fluida. Además, domino el control de versiones a través de Git , lo que me permite tomar decisiones informadas basadas en métricas.",
+    "ABOUT_EXPIRENCE": [
+      {
+        "EXPIRENCE": "Años",
+        "EXPIRENCE_ABOUT": "de experiencia"
+      },
+      {
+        "PROJECTS": "Proyectos",
+        "PROJECTS_ABOUT": "completados"
+      },
+      {
+        "WORKING": "Trabajando",
+        "WORKING_ABOUT": "en compañías"
+      }
+    ],
+    "ABOUT_DOWNLOAD_CV": "Ver CV",
+    "EXPERIENCE": "Experiencia"
+  },
+  "SKILLS": {
+    "SKILLS_TITLE": "Habilidades"
+  },
+  "PROJECTS": {
+    "PROJECTS_TITLE": "Proyectos",
+    "PROJECTS_VIEW": "Ver proyecto"
+  },
+  "CONTACT": {
+    "CONTACT_TITLE": "Contacto"
+  },
+  "FOOTER": {
+    "FOOTER_MAKE": "Hecho con",
+    "FOOTER_SEPARATOR": "y mucho",
+    "FOOTER_DESCRIPTION": "Proyecto desarrollado con Astro",
+    "FOOTER_ALL_RIGHT": "Todos los derechos reservados",
+    "FOOTER_ECOLOGICAL_FOOTPRINT": "Huella Ecologica - Calificacion"
+  },
+  "THEME": {
+    "BUTTON_LABEL": "Temas"
+  },
+  "LANGUAGES": {
+    "BUTTON_LABEL": "Idiomas"
+  },
+  "VERSION": {
+    "BUTTON_LABEL": "Versión",
+    "VERSION_CURRENT": "Actual"
+  },
+  "TOAST": {
+    "TOAST_TITLE": "Version preliminar",
+    "TOAST_BODY": "La version 1.0.1 esta desplegada pero habran futuros cambios en los próximos meses",
+    "TOAST_BUTTON": "Aceptar"
+  }
+}

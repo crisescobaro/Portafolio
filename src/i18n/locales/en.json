@@ -1,0 +1,60 @@
+{
+  "HEADER": {
+    "HEADER_TITLE": "Hello I'am",
+    "HEADER_NAME": "Cristian Escobar",
+    "HEADER_ABOUT": "Experience in the design and development of web applications, covering both frontend and backend, as well as solid knowledge of data analysis and databases.",
+    "HEADER_BUTTON": "About me"
+  },
+  "ABOUTME": {
+    "ABOUT_TITLE": "About me",
+    "ABOUT_ABOUT_DESCRIPTION": "I am a web developer specialized in creating complete applications from interface design to logic implementation on the server. I have experience in databases and application deployment, ensuring optimal performance and a smooth user experience. Additionally, I have mastered version control through Git and use Power BI for data analysis, allowing me to make informed decisions based on metrics.",
+    "ABOUT_EXPIRENCE": [
+      {
+        "EXPIRENCE": "Years",
+        "EXPIRENCE_ABOUT": "of experience"
+      },
+      {
+        "PROJECTS": "Projects",
+        "PROJECTS_ABOUT": "completed"
+      },
+      {
+        "WORKING": "Working",
+        "WORKING_ABOUT": "in companies"
+      }
+    ],
+    "ABOUT_DOWNLOAD_CV": "See CV",
+    "EXPERIENCE": "Experience"
+  },
+  "SKILLS": {
+    "SKILLS_TITLE": "Skills"
+  },
+  "PROJECTS": {
+    "PROJECTS_TITLE": "Projects",
+    "PROJECTS_VIEW": "See project"
+  },
+  "CONTACT": {
+    "CONTACT_TITLE": "Contact"
+  },
+  "FOOTER": {
+    "FOOTER_MAKE": "Make with",
+    "FOOTER_SEPARATOR": "and",
+    "FOOTER_DESCRIPTION": "Project developed with Astro",
+    "FOOTER_ALL_RIGHT": "All right reserved",
+    "FOOTER_ECOLOGICAL_FOOTPRINT": "Ecological Footprint - Rating"
+  },
+  "THEME": {
+    "BUTTON_LABEL": "Themes"
+  },
+  "LANGUAGES": {
+    "BUTTON_LABEL": "Languages"
+  },
+  "VERSION": {
+    "BUTTON_LABEL": "Version",
+    "VERSION_CURRENT": "Current"
+  },
+  "TOAST": {
+    "TOAST_TITLE": "Preliminary version",
+    "TOAST_BODY": "Version 1.0.1 is deployed, but there will be future changes in the coming months",
+    "TOAST_BUTTON": "Accept"
+  }
+}

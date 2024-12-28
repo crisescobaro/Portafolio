@@ -1,0 +1,36 @@
+---
+import { getI18N } from '@/i18n';
+
+import Bubble from '@/components/Bubble.astro';
+import ItemsHabilidades from '@/components/items/ItemsHabilidades.astro';
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content text-center">
+    <Bubble
+      class="top-40 bg-primary sm:left-32"
+      classNameToBottom="bottom-36 right-20 bg-accent sm:right-72"
+    />
+    <div class="max-w-5xl">
+      <div>
+        <h2 class="text-5xl md:text-6xl lg:text-7xl font-bold mt-20 mb-36">
+          {i18n.SKILLS.SKILLS_TITLE}
+        </h2>
+      </div>
+      <div
+        class="backdrop-blur-[100px] backdrop-saturate-[180%] border border-neutral-700  rounded-lg py-5 card"
+      >
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div
+            class="mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2"
+          >
+            <ItemsHabilidades />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

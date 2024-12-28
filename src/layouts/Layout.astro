@@ -1,0 +1,88 @@
+---
+const { currentLocale } = Astro;
+---
+
+<!doctype html>
+<html lang={currentLocale} class="scroll-smooth bg-base-300">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <meta name="description" content="Portafolio crisescobaro" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://mi-portafolio-web1.vercel.app/"
+    />
+    <meta property="og:title" content="Web developer JR" />
+    <meta
+      property="og:description"
+      content="Portafolio de Cristian Escobar"
+    />
+    <meta property="og:image" content="https://mi-portafolio-web1.vercel.app/kdl.webp">
+    <meta property="og:site_name" content="Portafolio">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://mi-portafolio-web1.vercel.app/"
+    />
+    <meta property="twitter:title" content="Porafolio" />
+    <meta
+      property="twitter:image"
+      content="https://mi-portafolio-web1.vercel.app/kdl.webp"
+    />
+   
+    <meta name="theme-color" content="#6f37cf" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="crisescobaro" />
+    <meta name="copyright" content="Copyright © 2024" />
+    <link rel="icon" type="image/svg+xml" href="/kdl.webp" />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mi-portafolio-web1.vercel.app/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+  </head>
+  <body>
+    <slot />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"
+    ></script>
+  </body>
+</html>
+
+<style is:global>
+  html {
+    transition:
+      background-color 0.5s ease-out,
+      color 0.5s ease-out;
+  }
+
+  .hero {
+    view-timeline-name: --reveal;
+    animation-name: show;
+    animation-fill-mode: none;
+    animation-timeline: --reveal;
+    animation-range: cover -50% entry 25%;
+  }
+
+  .sticky-navbar {
+    position: sticky;
+    top: 0;
+    height: 3px;
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+      scale: 10%;
+    }
+
+    to {
+      opacity: 1;
+      scale: 100%;
+    }
+  }
+</style>
