@@ -17,16 +17,16 @@
 //   },
 // });
 
-
+// astro.config.mjs
 import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
-import vercel from "@astrojs/vercel"; // Importa el adaptador de Vercel
+import vercel from "@astrojs/vercel"; // Adaptador de Vercel
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  output: "server", // Mantén el modo de salida como "server"
+  output: "server", // Modo de salida para SSR
   integrations: [tailwind(), react()],
-  adapter: vercel(), // Configura el adaptador de Vercel
+  adapter: vercel(),
   i18n: {
     defaultLocale: "es",
     locales: ["es", "en", "fr"],
@@ -35,4 +35,3 @@ export default defineConfig({
     },
   },
 });
-

@@ -1,3 +1,26 @@
+// {
+//   "extends": "astro/tsconfigs/base",
+//   "compilerOptions": {
+//     "jsx": "react-jsx",
+//     "jsxImportSource": "react",
+//     "moduleResolution": "node",
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["./src/*"]
+//     },
+//     "types": ["astro/client"], // Asegúrate de incluir esta línea
+//     "plugins": [
+//       {
+//         "name": "@astrojs/ts-plugin"
+//       }
+//     ]
+//   },
+//   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro"]
+// }
+
+
+
+// tsconfig.json
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
@@ -5,10 +28,11 @@
     "jsxImportSource": "react",
     "moduleResolution": "node",
     "baseUrl": ".",
+    "strict": true, // Habilitar la opción estricta para reducir errores de tipo
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["astro/client"], // Asegúrate de incluir esta línea
+    "types": ["astro/client"],
     "plugins": [
       {
         "name": "@astrojs/ts-plugin"
